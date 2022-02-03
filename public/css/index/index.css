@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img1{
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.div1{
+    display: flex;
+    width: 550px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border: solid 2px #184dc5;
+    margin-bottom: 15px;
+}
+
+.input1{
+    height: 100%;
+    border: none;
+    width: 100%;
+    
+}
+
+.input1:focus{
+    outline: none;
+}
